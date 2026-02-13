@@ -349,7 +349,7 @@ function App() {
                   <div style={{ fontSize: 48, marginBottom: 24 }}>🎨</div>
                   <div style={{ fontSize: 24, fontWeight: 700, marginBottom: 16 }}>AI UI Generator</div>
                   <div style={{ fontSize: 18, maxWidth: 500, margin: "0 auto", lineHeight: 1.6 }}>
-                    Try: "cab booking", "crypto dashboard", "cafe menu", "pink website"
+                    Try: "cab booking", "crypto dashboard", "cafe website ", "website"
                   </div>
                 </div>
               )}
