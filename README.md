@@ -55,35 +55,34 @@
 
 ---
 
-## 🏗️ Architecture
-instantUI/
+## 🏗️ Architecture & Folder Structure
+
+📦 instantUI
 │
-├── client/
-│   └── frontend/
-│       ├── src/
-│       │   └── components/
-│       │       ├── Button.jsx
-│       │       ├── Card.jsx
-│       │       ├── Input.jsx
-│       │       ├── Table.jsx
-│       │       ├── Modal.jsx
-│       │       ├── Sidebar.jsx
-│       │       └── Navbar.jsx
+├── client
+│   └── frontend
+│       ├── src
+│       │   ├── components
+│       │   │   ├── Button.jsx
+│       │   │   ├── Card.jsx
+│       │   │   ├── Input.jsx
+│       │   │   ├── Table.jsx
+│       │   │   ├── Modal.jsx
+│       │   │   ├── Sidebar.jsx
+│       │   │   └── Navbar.jsx
+│       │   │
+│       │   ├── App.jsx
+│       │   └── main.jsx
 │       │
-│       ├── main.jsx
-│       ├── App.jsx
-│       └── index.html
+│       ├── index.html
+│       ├── dist/          # Static build (Render deploy)
+│       └── package.json  # Vite config
 │
-│   ├── dist/                # Static build (Render deploy)
-│   └── package.json         # Vite config
-│
-├── server/
-│   ├── server.js            # Express + AI agent pipeline
+├── server
+│   ├── server.js         # Express + AI agent pipeline
 │   └── package.json
 │
 └── README.md
-ss + 3-agent AI pipeline
-└── package.json
 
 ---
 
