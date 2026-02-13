@@ -18,7 +18,7 @@ function App() {
 
     try {
       console.log("🔄 Calling backend with:", intent)
-      const response = await fetch("https://instantui-backend.onrender.com//api/generate", {
+      const response = await fetch("https://instantui-backend.onrender.com/api/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ intent })
