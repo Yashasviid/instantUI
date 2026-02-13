@@ -1,4 +1,4 @@
-# 🎨 Ryze AI UI Generator
+# 🎨 AI UI Generator
 
 > Deterministic UI generation from natural language | 3-Agent System | Claude-style UI
 
