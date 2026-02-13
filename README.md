@@ -57,11 +57,32 @@
 
 ## 🏗️ Architecture
 instantUI/
-├── client/frontend/ # Static Site (Render)
-│ ├── src/components/ # Fixed: Button, Card, Input, Table...
-│ └── package.json # Vite → dist/
-└── server/ # Web Service (Render)
-├── server.js # Express + 3-agent AI pipeline
+│
+├── client/
+│   └── frontend/
+│       ├── src/
+│       │   └── components/
+│       │       ├── Button.jsx
+│       │       ├── Card.jsx
+│       │       ├── Input.jsx
+│       │       ├── Table.jsx
+│       │       ├── Modal.jsx
+│       │       ├── Sidebar.jsx
+│       │       └── Navbar.jsx
+│       │
+│       ├── main.jsx
+│       ├── App.jsx
+│       └── index.html
+│
+│   ├── dist/                # Static build (Render deploy)
+│   └── package.json         # Vite config
+│
+├── server/
+│   ├── server.js            # Express + AI agent pipeline
+│   └── package.json
+│
+└── README.md
+ss + 3-agent AI pipeline
 └── package.json
 
 ---
