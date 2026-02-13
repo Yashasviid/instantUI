@@ -18,7 +18,7 @@ function App() {
 
     try {
       console.log("🔄 Calling backend with:", intent)
-      const response = await fetch("https://instantui-backend-lea0kljxp-yashasviids-projects.vercel.app", {
+      const response = await fetch("https://instantui-backend-lea0kljxp-yashasviids-projects.vercel.app/api/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ intent })
