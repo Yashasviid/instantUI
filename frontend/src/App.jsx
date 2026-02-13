@@ -66,11 +66,11 @@ function App() {
   // ICONS (CATEGORIES LIST)
   const getIconForTitle = (title) => {
     const titleLower = title.toLowerCase()
-    if (titleLower.includes('uber') || titleLower.includes('ride') || titleLower.includes('car')) return '🚗'
+    if (titleLower.includes('uber') || titleLower.includes('ride') || titleLower.includes('car') || titleLower.includes('cab')) return '🚗'
     if (titleLower.includes('bitcoin') || titleLower.includes('crypto')) return '₿'
     if (titleLower.includes('ethereum')) return 'Ξ'
     if (titleLower.includes('coffee') || titleLower.includes('starbucks')) return '☕'
-    if (titleLower.includes('restaurant') || titleLower.includes('menu')) return '🍽️'
+    if (titleLower.includes('restaurant') || titleLower.includes('menu') || titleLower.includes('food')) return '🍽️'
     if (titleLower.includes('product') || titleLower.includes('shop') || titleLower.includes('store')) return '🛍️'
     if (titleLower.includes('weather')) return '☀️'
     if (titleLower.includes('task') || titleLower.includes('todo')) return '📝'
@@ -127,7 +127,7 @@ function App() {
             Describe a UI in plain English and generate deterministic React UI.
           </div>
 
-          <Input placeholder="uber clone, crypto dashboard..." value={intent} onChange={(e) => setIntent(e.target.value)} />
+          <Input placeholder="cab booking website, crypto dashboard..." value={intent} onChange={(e) => setIntent(e.target.value)} />
           <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
             <Button label="Generate UI" onClick={handleGenerate} />
           </div>
@@ -349,7 +349,7 @@ function App() {
                   <div style={{ fontSize: 48, marginBottom: 24 }}>🎨</div>
                   <div style={{ fontSize: 24, fontWeight: 700, marginBottom: 16 }}>AI UI Generator</div>
                   <div style={{ fontSize: 18, maxWidth: 500, margin: "0 auto", lineHeight: 1.6 }}>
-                    Try: "uber clone", "crypto dashboard", "starbucks menu", "pink website"
+                    Try: "cab booking", "crypto dashboard", "cafe menu", "pink website"
                   </div>
                 </div>
               )}
