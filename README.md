@@ -1,10 +1,9 @@
 # 🎨 AI UI Generator
 
 > Deterministic UI generation from natural language | 3-Agent System | Claude-style UI
-
-[![Deployed](https://img.shields.io/badge/Deployed-Vercel-black?style=flat&logo=vercel)](YOUR_VERCEL_URL)
-[![Backend](https://img.shields.io/badge/Backend-Render-blue?style=flat&logo=render)](YOUR_RENDER_URL)
-[![Video](https://img.shields.io/badge/Demo-Video-red?style=flat&logo=youtube)](YOUR_LOOM_URL)
+[![Frontend](https://img.shields.io/badge/Frontend-Render-00D4F1?style=flat&logo=render)](https://instantui-frontend.onrender.com)
+[![Backend](https://img.shields.io/badge/Backend-Render-00D4F1?style=flat&logo=render)](https://instantui-backend.onrender.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat&logo=github)](https://github.com/Yashasviid/instantUI)
 
 ---
 
